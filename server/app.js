@@ -10,7 +10,7 @@ require('dotenv').config();
 mongooseConnect();
 
 app.use(cors({
-  origin: 'https://jobhive-frontend-4tgyh858u-amannpanchals-projects.vercel.app', 
+  origin: 'https://l2j34m-3000.csb.app/', 
   credentials: true,
 }));
 
