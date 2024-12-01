@@ -14,7 +14,7 @@ app.use(cookieParser());
 app.use(express.json());
 app.use(
   cors({
-    origin: "*"
+    origin: "*",
     credentials: true,
   })
 );
